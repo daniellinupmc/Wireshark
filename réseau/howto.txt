@@ -1,0 +1,2 @@
+Il y a besoin d'aucune installation, il faut seulement copier la trame et la mettre dans un fichier texte "trame" (trame.txt dans le même répertoire que le code) puis ouvrir 
+un terminal, accéder au répertoire où se trouve le code et éxécuter "./projet".

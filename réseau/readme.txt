@@ -1,0 +1,4 @@
+Le but du projet est de réaliser un analyseur de protocoles réseau 'offline'. On a réalise ce projet avec le langage de programmation C. Tout d'abord on a crée un tableau 
+"chaine" contenant tout le contenu du fichier "trame" à l'aide de la fonction fopen qui permait la lecture du fichier mais aussi à l'aide de la fonction fgets dans une 
+boucle while qui permet de stocker dans le tableau "ch" le contenu ligne par ligne du fichier (qu'on ajoute dans "chaine" à l'aide de la fonction strcat). Puis on a codé
+partie par partie c'est-à-dire d'abord le protocole ethernet puis ip puis tcp et enfin http.

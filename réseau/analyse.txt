@@ -1,0 +1,62 @@
+Ethernet II
+    Destination: 00:50:7f:05:7d:40
+    Source: 00:10:a4:86:2d:0b
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00
+        Differentiated Services Codepoint: Default (0)
+        Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 0x0219 (537)
+    Identification: 0x1798 (6040)
+    Flags: 0x40
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    Fragment Offset: 0
+    Time to Live: 64
+    Protocol: TCP (6)
+    Header Checksum: 0x6c14
+    Source Address: 10.33.182.178
+    Destination Address: 192.55.52.40
+Transmission Control Protocol
+    Source Port: 33971
+    Destination Port: 80
+    Sequence Number: -2037075784
+    Acknowledgment Number: 610765289
+    .... 1000 = Header Length: 32 bytes (8)
+    Flags: 0x018
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+    Window: 5840
+    Checksum: 0x60e4
+    Urgent Pointer: 0
+    Options: (12 bytes)
+        TCP Option - No-Operation (NOP)
+            Kind: No-Operation (1)
+        TCP Option - No-Operation (NOP)
+            Kind: No-Operation (1)
+        TCP Option - Timestamps
+            Kind: Time Stamp Option (8)
+            Length: 10
+        Timestamp value: 7317298
+        Timestamp echo reply: 0
+Hypertext Transfer Protocol
+GET / HTTP/1.1
+Host: www.xircom.com
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.0.0) Gecko/20020623 Debian/1.0.0-0.woody.1
+Accept: text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,video/x-mng,image/png,image/jpeg,image/gif;q=0.2,text/css,*/*;q=0.1
+Accept-Language: fr-FR, fr;q=0.66, en;q=0.33
+Accept-Encoding: gzip, deflate, compress;q=0.9
+Accept-Charset: ISO-8859-1, utf-8;q=0.66, *;q=0.66
+Keep-Alive: 300
+Connection: keep-alive
